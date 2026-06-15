@@ -6,7 +6,7 @@ All sessions are saved to MongoDB so you can track progress over time.
 
 ## Live Demo
 
-- **Frontend (Vercel):** https://ai-mock-interviewer-xxxx.vercel.app
+- **Frontend (Vercel):** https://ai-mock-interviewer-iota-mocha.vercel.app/
 - **Backend (Render):** https://ai-mock-interviewer-jtpn.onrender.com
 
 ### Deployment Status
