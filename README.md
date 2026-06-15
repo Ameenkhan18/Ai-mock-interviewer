@@ -4,6 +4,26 @@ Practice job interviews with an AI interviewer. Pick a role and difficulty, answ
 AI-generated questions, and receive instant feedback on clarity, relevance, and depth.
 All sessions are saved to MongoDB so you can track progress over time.
 
+## Live Demo
+
+- **Frontend (Vercel):** https://ai-mock-interviewer-xxxx.vercel.app
+- **Backend (Render):** https://ai-mock-interviewer-jtpn.onrender.com
+
+### Deployment Status
+
+The backend is live on Render and connected to MongoDB Atlas:
+
+![Render deployment logs](./screenshots/render-deploy-success.png)
+
+```
+Server running on port 5000
+MongoDB connected: ac-iwjumgw-shard-00-02.xwnnvou.mongodb.net
+==> Your service is live 🎉
+==> Available at your primary URL https://ai-mock-interviewer-jtpn.onrender.com
+```
+
+> Note: Render's free tier spins down after periods of inactivity, so the first request after idle time may take 30-50 seconds to respond.
+
 ## Tech Stack
 
 - **Frontend:** React (Vite) + Tailwind CSS, deployed on Vercel
